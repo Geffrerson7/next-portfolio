@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Image from 'next/legacy/image';
 import playlistImg from '../../public/assets/projects/playlist-api.png'
 
-export const playlistNode = () => {
+const playlistNode = () => {
     return (
         <div className='w-full'>
             <div className='w-screen h-[50vh] relative'>
@@ -63,24 +63,6 @@ export const playlistNode = () => {
                             <p className='text-gray-600 py-2 flex items-center'>
                                 <RiRadioButtonFill className='pr-1' /> Prisma
                             </p>
-                            <p className='text-gray-600 py-2 flex items-center'>
-                                <RiRadioButtonFill className='pr-1' /> PostgreSQL
-                            </p>
-                            <p className='text-gray-600 py-2 flex items-center'>
-                                <RiRadioButtonFill className='pr-1' /> Pusher
-                            </p>
-                            <p className='text-gray-600 py-2 flex items-center'>
-                                <RiRadioButtonFill className='pr-1' /> Twilio
-                            </p>
-                            <p className='text-gray-600 py-2 flex items-center'>
-                                <RiRadioButtonFill className='pr-1' /> Supabase
-                            </p>
-                            <p className='text-gray-600 py-2 flex items-center'>
-                                <RiRadioButtonFill className='pr-1' /> Angular
-                            </p>
-                            <p className='text-gray-600 py-2 flex items-center'>
-                                <RiRadioButtonFill className='pr-1' /> Vercel
-                            </p>
                         </div>
                     </div>
                 </div>
@@ -91,3 +73,5 @@ export const playlistNode = () => {
         </div>
     )
 }
+
+export default playlistNode

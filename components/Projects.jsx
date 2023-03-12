@@ -37,7 +37,7 @@ const Projects = () => {
           <ProjectItem
             title='Api Playlist'
             backgroundImg={playlistImg}
-            projectUrl='/playlist'
+            projectUrl='/playlistNode'
             tech='Node.js, Express.js, Typescript and Prisma'
 
           />
