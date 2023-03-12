@@ -2,7 +2,7 @@ import React from 'react'
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 import Image from 'next/legacy/image';
-import moviesNodeImg from '../public/assets/projects/API-MOVIES-TS.png'
+import moviesNodeImg from '../../public/assets/projects/API-MOVIES-TS.png'
 
 const moviesNode = () => {
   return (

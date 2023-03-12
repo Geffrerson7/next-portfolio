@@ -2,7 +2,7 @@ import React from 'react'
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 import Image from 'next/legacy/image';
-import playlistImg from '../public/assets/projects/playlist-api.png'
+import playlistImg from '../../public/assets/projects/playlist-api.png'
 
 export const playlistNode = () => {
     return (

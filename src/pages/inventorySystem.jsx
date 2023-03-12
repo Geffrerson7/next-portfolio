@@ -2,7 +2,7 @@ import React from 'react'
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 import Image from 'next/legacy/image';
-import inventoryImg from '../public/assets/projects/inventario.png'
+import inventoryImg from '../../public/assets/projects/inventario.png'
 
 const inventorySystem = () => {
   return (
