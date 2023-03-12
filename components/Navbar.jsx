@@ -85,7 +85,7 @@ const Navbar = () => {
                             </div>
                         </div>
                         <div className='border-b border-gray-300 my-4'>
-                            <p className='w-[85%] md:w-[90%] py-4'>Let's build something legendary together</p>
+                            <p className='w-[85%] md:w-[90%] py-4'>Let&#39;s build something legendary together</p>
                         </div>
                     </div>
                     <div className='py-4 flex flex-col'>
@@ -107,7 +107,7 @@ const Navbar = () => {
                             </Link>
                         </ul>
                         <div className='pt-39'>
-                            <p className='uppercase tracking-widest text-[#5651e5]'>Let´s Connect</p>
+                            <p className='uppercase tracking-widest text-[#5651e5]'>Let&#39;s Connect</p>
                             <div className='flex item-center justify-between my-4 w-full sm:w-[80%]'>
                                 <a 
                                     href='https://www.linkedin.com/in/gefferson-casasola/'
