@@ -23,14 +23,14 @@ const Projects = () => {
           <ProjectItem
             title='Api Movies with Node'
             backgroundImg={moviesNodeImg}
-            projectUrl='/movies-node'
+            projectUrl='/moviesNode'
             tech='Node.js, Express.js, Prisma and TypeScript'
 
           />
           <ProjectItem
             title='Iventory System'
             backgroundImg={inventoryImg}
-            projectUrl='/inventory-system'
+            projectUrl='/inventorySystem'
             tech='TypeScript, Prisma, Express.js, Node.js, Angular, Pusher, Twilio and Supabase'
 
           />
