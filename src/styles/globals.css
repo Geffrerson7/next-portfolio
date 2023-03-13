@@ -8,10 +8,16 @@ html {
   scroll-behavior: smooth;
   font-family: 'Raleway', sans-serif;
 }
-
+#main{
+  width: 100%;
+  height: 100vh;
+  background: url("../../public/assets/banner.jpg") top center;
+  background-size: cover;
+}
 @layer base {
   body {
-    @apply bg-[#ecf0f3] text-[#1f2937] tracking-wide
+    @apply bg-[#ecf0f3] text-[#1f2937] tracking-wide;
+    
   }
 
   h1, h2, h3, h4, h5, h6 {
