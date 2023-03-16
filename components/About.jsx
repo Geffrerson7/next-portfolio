@@ -13,18 +13,16 @@ const About = () => {
                     </p>
                     <h2 className='py-4'>Who I Am?</h2>
                     <p className='py-2 text-gray-600'>
-                        I am an electronic engineering graduate and started web development in 2022 when I won the Bicentennial Scholarship 3.0: Backend Developer where I learned:</p>
-                
-                    <p className='py-2 text-gray-600'>&#9989;Programming languages like Python, including the use of annotations. JavaScript and TypeScript for front-end and back-end application development.</p>
-                    <p className='py-2 text-gray-600'>&#9989;Relational databases (MySQL, Postgres) and NoSQL databases (MongoDB).</p>
-                    <p className='py-2 text-gray-600'>&#9989;Frameworks Django and Flask in Python, and Express and Node in JavaScript/TypeScript for web application development.</p>
-                    <p className='py-2 text-gray-600'>&#9989;AWS services, such as S3, EC2, and AWS Lambda, for deploying and maintaining cloud applications.</p>
-                    <p className='py-2 text-gray-600'>&#9989;Integrations: I have the ability to integrate payment gateways into web applications, which allows users to carry out secure transactions.</p>
-                    <p className='py-2 text-gray-600'>&#9989;Collaborative work: Possesses the ability to work with code repositories using GitHub and pull requests to collaborate with other developers.</p>
-                    
+                        Hello! I'm Gefferson. I'm a junior programmer who loves to build things with code.
+                        My first experience with programming was when I was 22 years old at university while I was studying electronic engineering, but it didn't last long: I was a big fan of video games, and one day I saw in a university lecture how to create a pacman video game with C++ and decided to do it. At first it was difficult for me because I did not understand the logic and syntax but after watching tutorials and asking friends for advice I was able to do it. Then I learned Matlab and I liked the graphs I made for the Linear and Discrete Control Systems course. On March 1, 2023, I graduated from the 18-week Beca Bicentenario Scholarship Intensive Bootcamp 3.0: Backend Developer and am looking for a full-time position where I can help a company achieve their
+                        goals.
+                    </p>
+
+
+
                     <Link href='/#projects'>
                         <p className='py-2 text-gray-600 underline cursor-pointer'>
-                        &#10145;Check out some of my latest projects.
+                            &#10145;Check out some of my latest projects.
                         </p>
                     </Link>
                 </div>

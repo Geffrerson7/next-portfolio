@@ -28,8 +28,7 @@ const Contact = () => {
                                 <h2 className='py-2'>Gefferson Casasola</h2>
                                 <p>Backend Developer</p>
                                 <p className='py-4'>
-                                    I am available for freelance or full-time positions. Contact
-                                    me and let&apos;s talk.
+                                    Let&#39;s work together!
                                 </p>
                             </div>
                             <div>
