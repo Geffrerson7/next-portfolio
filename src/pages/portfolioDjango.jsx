@@ -31,6 +31,10 @@ const portfolioDjango = () => {
                         The Back End part was done with Django and the Front End part was done
                         with Bootstrap and a free template.
                     </p>
+                    <h3>Features</h3>
+                    <li>✅Users login and register</li>
+                    <li>✅CRUD projects</li>
+                    <li>✅Deployment in Render</li>
                     <a
                         href='https://github.com/Geffrerson7/PORTFOLIO-DJANGO'
                         target='_blank'

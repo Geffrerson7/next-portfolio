@@ -29,6 +29,15 @@ const paymentsAPI = () => {
                     <p>
                         It is a service payment API made with Django Rest Framework that allows users to add payments for streaming services in the condition of users and list them as made and expired. And on the administrator side, in addition, you can create and update the information of a service.
                     </p>
+                    <h3>Features</h3>
+                    <ul>
+                        <li>✅Users authentication by JWT</li>
+                        <li>✅Pagination</li>
+                        <li>✅Cors</li>
+                        <li>✅Throttling</li>
+                        <li>✅Swagger documentation</li>
+                        <li>✅Deployment in Render</li>
+                    </ul>
                     <a
                         href='https://github.com/Geffrerson7/PAYMENTS-API'
                         target='_blank'

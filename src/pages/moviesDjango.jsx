@@ -31,6 +31,13 @@ const moviesDjango = () => {
                         You are able to create users, movies and movies rent. For authentication
                         users I used JWT and for API documentation I used Swagger.
                     </p>
+                    <h3>Features</h3>
+                    <ul>
+                        <li>✅Users authentication by JWT</li>
+                        <li>✅Cors</li>
+                        <li>✅Swagger documentation</li>
+                        
+                    </ul>
                     <a
                         href='https://github.com/Geffrerson7/MOVIE-API-DJANGO'
                         target='_blank'
