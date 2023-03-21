@@ -2,9 +2,9 @@ import React from 'react'
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 import Image from 'next/legacy/image';
-import paymentsDjangoImg from '../../public/assets/projects/api-payments.png'
+import portfolioDjangoImg from '../../public/assets/projects/django-portfolio.png'
 
-const paymentsAPI = () => {
+const portfolioDjango = () => {
     return (
         <div className='w-full'>
             <div className='w-screen h-[50vh] relative'>
@@ -13,12 +13,12 @@ const paymentsAPI = () => {
                     className='absolute z-1'
                     layout='fill'
                     objectFit='cover'
-                    src={paymentsDjangoImg}
+                    src={portfolioDjangoImg}
                     alt='/'
                 />
                 <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-                    <h2 className='py-2'>Payments API with Django Rest Framework</h2>
-                    <h3>Django Rest Framework / Python / PostgreSQL</h3>
+                    <h2 className='py-2'>Portfolio with Django</h2>
+                    <h3>Django / Python / PostgreSQL</h3>
                 </div>
             </div>
 
@@ -27,17 +27,19 @@ const paymentsAPI = () => {
                     <p>Project</p>
                     <h2>Overview</h2>
                     <p>
-                        It is a service payment API made with Django Rest Framework that allows users to add payments for streaming services in the condition of users and list them as made and expired. And on the administrator side, in addition, you can create and update the information of a service.
+                        It is a portfolio where you can view and add your programming projects.
+                        The Back End part was done with Django and the Front End part was done
+                        with Bootstrap and a free template.
                     </p>
                     <a
-                        href='https://github.com/Geffrerson7/PAYMENTS-API'
+                        href='https://github.com/Geffrerson7/PORTFOLIO-DJANGO'
                         target='_blank'
                         rel='noreferrer'
                     >
                         <button className='px-8 py-2 mt-4 mr-8'>Code</button>
                     </a>
                     <a
-                        href=''
+                        href='https://django-portfolio-4771.onrender.com/'
                         target='_blank'
                         rel='noreferrer'
                     >
@@ -49,7 +51,7 @@ const paymentsAPI = () => {
                         <p className='text-center font-bold pb-2'>Technologies</p>
                         <div className='grid grid-cols-3 md:grid-cols-1'>
                             <p className='text-gray-600 py-2 flex items-center'>
-                                <RiRadioButtonFill className='pr-1' /> Django Rest Framework
+                                <RiRadioButtonFill className='pr-1' /> Django
                             </p>
                             <p className='text-gray-600 py-2 flex items-center'>
                                 <RiRadioButtonFill className='pr-1' /> Python
@@ -68,4 +70,4 @@ const paymentsAPI = () => {
     )
 }
 
-export default paymentsAPI
+export default portfolioDjango
