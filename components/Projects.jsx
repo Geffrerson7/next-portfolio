@@ -4,6 +4,7 @@ import moviesDjangoImg from '../public/assets/projects/API-MOVIES-PYTHON.png'
 import moviesNodeImg from '../public/assets/projects/API-MOVIES-TS.png'
 import inventoryImg from '../public/assets/projects/inventario.png'
 import playlistImg from '../public/assets/projects/playlist-api.png'
+import paymentsDjangoImg from '../public/assets/projects/api-payments.png'
 
 const Projects = () => {
   return (
@@ -19,6 +20,13 @@ const Projects = () => {
             backgroundImg={moviesDjangoImg}
             projectUrl='/moviesDjango'
             tech='Django Rest Framework'
+          />
+          <ProjectItem
+            title='Api Payments with DRF'
+            backgroundImg={paymentsDjangoImg}
+            projectUrl='/paymentsAPI'
+            tech='Django Rest Framework'
+
           />
           <ProjectItem
             title='Api Movies with Node'
@@ -41,6 +49,7 @@ const Projects = () => {
             tech='Node.js, Express.js, Typescript and Prisma'
 
           />
+          
         </div>
       </div>
     </div>
