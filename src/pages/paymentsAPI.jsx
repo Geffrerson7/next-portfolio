@@ -39,7 +39,7 @@ const paymentsAPI = () => {
                         <li>✅Deployment in Render</li>
                     </ul>
                     <a
-                        href='https://github.com/Geffrerson7/PAYMENTS-API'
+                        href='https://github.com/Geffrerson7/DJANGO-PAYMENTS-API'
                         target='_blank'
                         rel='noreferrer'
                     >

@@ -33,14 +33,14 @@ const playlistNode = () => {
                         users we used JWT and for API documentation I used Postman.
                     </p>
                     <a
-                        href='https://github.com/Geffrerson7/Proyecto-Unidad-8-Back'
+                        href='https://github.com/Geffrerson7/PLAYLIST-API'
                         target='_blank'
                         rel='noreferrer'
                     >
                         <button className='px-8 py-2 mt-4 mr-8'>Code</button>
                     </a>
                     <a
-                        href='https://proyecto-unidad-8-front.vercel.app/'
+                        href=''
                         target='_blank'
                         rel='noreferrer'
                     >

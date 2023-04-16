@@ -34,14 +34,14 @@ const inventorySystem = () => {
                         users we used JWT.
                     </p>
                     <a
-                        href='https://github.com/Geffrerson7/PLAYLIST-API'
+                        href='https://github.com/Geffrerson7/Proyecto-Unidad-8-Back'
                         target='_blank'
                         rel='noreferrer'
                     >
                         <button className='px-8 py-2 mt-4 mr-8'>Code</button>
                     </a>
                     <a
-                        href=''
+                        href='https://www.youtube.com/watch?v=46EETAxA3tA'
                         target='_blank'
                         rel='noreferrer'
                     >
