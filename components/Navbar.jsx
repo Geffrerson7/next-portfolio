@@ -91,7 +91,7 @@ const Navbar = () => {
                             <Link href='/#skills'>
                                 <li className='py-4 text-sm'>Skills</li>
                             </Link>
-                            <Link href='/#skills'>
+                            <Link href='/#projects'>
                                 <li className='py-4 text-sm'>Projects</li>
                             </Link>
                             <Link href='/#contact'>
